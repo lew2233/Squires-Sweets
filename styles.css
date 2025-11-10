@@ -41,27 +41,19 @@ body {
 .nav-logo {
     display: flex;
     align-items: center;
-    gap: 12px;
-    cursor: pointer;
+    gap: 10px; /* Space between image and text */
 }
 
-.logo-placeholder {
-    width: 48px;
-    height: 48px;
-    background-color: white;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    color: #111827;
-    font-size: 18px;
+#Logo {
+    width: 60px; /* Adjust this value to fit your design—try 40-80px */
+    height: auto; /* Keeps proportions intact */
+    max-width: 100%; /* Prevents overflow on small screens */
 }
 
 .logo-text {
-    font-size: 20px;
+    font-size: 1.5rem; /* Matches logo scale; tweak as needed */
     font-weight: bold;
-    color: white;
+    color: inherit; /* Matches navbar color */
 }
 
 .mobile-menu-btn {
