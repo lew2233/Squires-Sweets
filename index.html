@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Squires Sweets - Create Your Perfect Sweet Mix</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navigation -->
-<nav class="navbar">
+<nav class="navbar sweet-navbar">
     <div class="nav-container">
         <div class="nav-logo">
             <a href="index.html">
-                <img src="/image/logo.png" id="Logo" alt="Logo" onerror="this.src='/image/logo.png'; this.onerror=() => console.warn('Failed to load Logo at /image/logo.png')" />
-                <span class="logo-text">Squires Sweets</span>
+                <div class="logo-badge">
+                    <img src="/image/logo.png" id="Logo" alt="Squires Sweets Logo" />
+                </div>
+                <span class="logo-text brand-font">Squires Sweets</span>
             </a>
         </div>
-       
         <button class="mobile-menu-btn" id="mobileMenuBtn">
             <span class="hamburger"></span>
         </button>
         <div class="nav-links" id="navLinks">
-            <a href="index.html" class="nav-link active">Home</a>
-            <a href="products.html" class="nav-link">Products</a>
-            <a href="promo.html" class="nav-link">Special Offer</a>
-            <a href="about.html" class="nav-link">About</a>
-            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="index.html" class="nav-link active nav-icon">🏠 Home</a>
+            <a href="products.html" class="nav-link nav-icon">🍬 Products</a>
+            <a href="promo.html" class="nav-link nav-icon">💰 Special Offer</a>
+            <a href="about.html" class="nav-link nav-icon">ℹ️ About</a>
+            <a href="contact.html" class="nav-link nav-icon">✉️ Contact</a>
+            <a href="https://wa.me/447564230269" target="_blank" rel="noopener noreferrer" class="nav-cta">🍭 Order Now</a>
         </div>
     </div>
 </nav>
