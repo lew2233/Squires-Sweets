@@ -1,0 +1,36 @@
+/* Facebook Section Styling */
+.section-facebook {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.facebook-posts {
+    text-align: center;
+}
+
+.fb-page {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.section-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.title-underline {
+    width: 50px;
+    height: 4px;
+    background-color: #f5a623;
+    margin: 10px auto;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
